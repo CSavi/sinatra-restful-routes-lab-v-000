@@ -43,7 +43,6 @@ class ApplicationController < Sinatra::Base
     @recipe.delete
 
     redirect to '/recipes'
-      binding.pry
   end
 
 end
